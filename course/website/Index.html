@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark text-light fixed-top ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VAC Bootcamp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">                     
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#showcase">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#topics">Topics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trainner">Trainner</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ShowCase -->
+    <section id="showcase" class=" pt-5 bg-success text-light">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/python.png" class="img-fluid h-100" alt="">
+                </div>
+                <div class="col-md-6 pt-3 text-center text-md-start">
+                    <h1>Become a</h1>
+                    <h1 class="display-2 text-warning">Full Stack Developer</h1>
+                    <p class="lead my-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Doloremque consequatur vero rerum beatae dolor autem, officia quo maxime voluptatibus ipsam?
+                    </p>
+                    <!-- <button class="btn btn-primary">Enroll Now</button> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Enroll Now
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id=topics class="bg-light p-5 text-center">
+        <h1 class="display4">Things you will learn</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, aperiam!</p>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Enrollment form</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-square"></i></span>
+                            <input type="text" class="form-control" placeholder="Name" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone-fill"></i></span>
+                            <input type="text" class="form-control" placeholder="Mobile" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill"></i></span>
+                            <input type="text" class="form-control" placeholder="E-mail" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <input type="submit" value="Enroll" class="btn btn-primary w-100">
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fundamentals -->
+    <section id="fundamentals">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Images/fundamentals.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 pt-5">
+                    <h2 class="h2">Learn The Fundamentals</h2>
+                    <p class="lead my-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores modi, rem molestias aspernatur hic aut beatae provident dicta pariatur ipsam. Lorem
+                        ipsum dolor sit
+                        amet,
+                        consectetur adipisicing elit. Similique quam quod quas vero aut nihil suscipit placeat dicta?
+                        Corrupti,
+                        reprehenderit?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Django-->
+    <section id="Django" class="bg-dark text-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 pt-3 ">
+                    <h2 class="h2">Learn Django</h2>
+                    <p class="lead my-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores modi, rem molestias aspernatur hic aut beatae provident dicta pariatur ipsam. Lorem
+                        ipsum dolor sit
+                        amet,
+                        consectetur adipisicing elit. Similique quam quod quas vero aut nihil suscipit placeat dicta?
+                        Corrupti,
+                        reprehenderit?</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/django.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Trainner-->
+    <section id="trainner" class="bg-primary p-5">
+        <div class="text-light text-center">
+            <h2 class="display-3">Our Trainners</h2>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eligendi, quaerat
+                expedita
+                assumenda quos repudiandae.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 trainner">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/trainner1.jpg" class=" rounded-circle timg">
+                            <h3>Jyoti Bikash</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, et.</p>
+                            <p>
+                                <a href="https://www.facebook.com/profile.php?id=100008736840378"><i class="bi bi-facebook "> </i></a>
+                                <a href="#!"><i class="bi bi-instagram text-danger"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-whatsapp"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- second profile -->
+                <div class="col-md-3 trainner">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/trainner2.jpg" class=" rounded-circle timg" >
+                            <h3>Sourabha Sadasiv Mohanty</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, et.</p>
+                            <p>
+                                <a href=""><i class="bi bi-facebook "> </i></a>
+                                <a href=""><i class="bi bi-instagram text-danger"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-whatsapp"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- third profile -->
+                <div class="col-md-3 trainner">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/trainner3.jpg" class=" rounded-circle timg">
+                            <h3>Sumant Kujur</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, et.</p>
+                            <p>
+                                <a href=""><i class="bi bi-facebook "> </i></a>
+                                <a href="#!"><i class="bi bi-instagram text-danger"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-whatsapp"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth profile -->
+                <div class="col-md-3 trainner">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/trainner4.jpg" class=" rounded-circle timg">
+                            <h3>Rashmikanta Panda</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, et.</p>
+                            <p>
+                                <a href=""><i class="bi bi-facebook "> </i></a>
+                                <a href=""><i class="bi bi-instagram text-danger"></i></a>
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-whatsapp"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="bg-dark text-light text-center py-5 ">
+        <p>&copy; @copyright2022</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

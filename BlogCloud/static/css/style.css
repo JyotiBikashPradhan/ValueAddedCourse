@@ -1,0 +1,13 @@
+
+.carousel-item{
+    height: 450px !important;
+}
+.cat-img{
+    height: 175px;
+}
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}

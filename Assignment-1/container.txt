@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: auto;
+            padding: 10px;
+        }
+        .image{
+            height: 50%;
+            width: 30%;
+            
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <section id="Famous places">
+        <div class="container">
+            <div class="paragraph ">
+                <h2 class="h2">This is First picture</h2>
+                <p class="lead my-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores modi, rem molestias aspernatur hic aut beatae provident dicta pariatur ipsam. Lorem
+                    ipsum dolor sit
+                </p>
+            </div>
+            <div class="img">
+                <img src="/img/2022-09-04.jpg" class="image" alt="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="paragraph ">
+                <h2 class="h2">This is second oicture</h2>
+                <p class="lead my-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores modi, rem molestias aspernatur hic aut beatae provident dicta pariatur ipsam. Lorem
+                    ipsum dolor sit
+                </p>
+            </div>
+            <div class="img">
+                <img src="/img/burj khalifa.jpg" class="image" alt="">
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="paragraph">
+                <h2 class="h2">This is third picture</h2>
+                <p class="lead my-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Maiores modi, rem molestias aspernatur hic aut beatae provident dicta pariatur ipsam. Lorem
+                    ipsum dolor sit
+                </p>
+            </div>
+            <div class="img">
+                <img src="/img/lotus temple.jpg" class="image" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
